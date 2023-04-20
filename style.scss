@@ -1,0 +1,38 @@
+.top{
+    justify-content: center;
+    align-items: center;
+
+    .top2{
+        width: 50%;
+        height: 100px;
+        margin: auto;
+        background-color: aquamarine;
+        .title{
+            text-align: center;
+            padding: 20px;
+        }
+    }
+    .top3{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+        background-color: #9ce6a8;
+        width: 50%;
+        height: 300px;
+        .top4{
+            display: flex;
+            position: relative;
+            top: 30px;
+            left: 200px;
+            p{
+                position: relative;
+                top: 10px;
+            }
+        }
+    }
+    .top5{
+        padding: 30px 200px;
+        word-wrap: break-word;
+    }
+}
